@@ -24,8 +24,8 @@ const INITIAL_PRODUCT = {
 
 function App() {
   const [formData, setFormData] = useState({
-    username: "nomorecomputer@gmail.com",
-    password: "nomorecomputer",
+    username: "",
+    password: "",
   });
   const [isAuth, setIsAuth] = useState(false);
   const [products, setProducts] = useState([]);
